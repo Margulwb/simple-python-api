@@ -1,0 +1,36 @@
+name: Merge main to develop
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Fetch all branches
+        run: git fetch --all
+
+      - name: Checkout develop branch
+        run: git checkout develop
+
+      - name: Merge main into develop
+        run: git merge main --no-ff
+
+      - name: Push changes to develop
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          git push https://x-access-token:${{ secrets.TOKEN }}@github.com/${{ github.repository }} develop

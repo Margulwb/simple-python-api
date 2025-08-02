@@ -1,0 +1,350 @@
+[
+    {
+        "id": 1,
+        "title": "Anglia",
+        "subTitle": "opis cywilizacji",
+        "date": "30.05.2024",
+        "content": [
+            {
+                "title": "Bonusy",
+                "content": [
+                    "Silniejsi Mieszkańcy (Villagers), wyposażeni w krótkie łuki",
+                    "Centrum Miasta (Town Center), Wieże strażnicze (Outposts), Wieże (Towers) oraz Twierdze (Keeps) zapewniają premię do sieci Zamków, dając 25% do prędkości ataku wszystkim pobliskim jednostkom",
+                    "Centrum Miasta wypuszcza 2 razy więcej strzał",
+                    "Koszt farm jest zmniejszony o 50% drewna",
+                    "Farmy ustawione w pobliżu Młynów produkują żywność 15% szybciej",
+                    "Jednostki Man-at-Arms dostępne już od I ery",
+                    "Statki militarne otrzymują +1 do zasięgu"
+                ]
+            },
+            {
+                "title": "Unikalne jednostki",
+                "content": [
+                    "Longbowman - niezrównana jednostka łuczników. Dzięki ich dalekiemu zasięgowi i potężnym ulepszeniom doskonale sprawdzą na murach. Potrafią rozkładać palisady obronne, skuteczni przeciwko kawalerii."
+                ]
+            },
+            {
+                "title": "Zabytki (Landmarks)",
+                "content": [
+                    {
+                        "subTitle": "II era",
+                        "content": [
+                            "Council Hall - budynek military, produkujący 100% szybciej jednostki Longbowman. Posiada dodatkowe ulepszenia dla tych jednostek",
+                            "Abbey of Kings - budynek religijny, uzdrawiający wszystkie jednostki nie biorące udziału w walce o 4 HP co 1,5 sekundy."
+                        ]
+                    },
+                    {
+                        "subTitle": "III era",
+                        "content": [
+                            "Kings Palace - budynek ekonomiczny, posiadający te same cechy co Centrum Miasta",
+                            "The White Tower - budynek obronny, posiadający cechy Twierdzy, ze wszystkimi technologiami i bonusami. Można w nim produkować wszystkie dostępne jednostki."
+                        ]
+                    },
+                    {
+                        "subTitle": "IV era",
+                        "content": [
+                            "Berkshire Palace - budynek obronny, posiadający cechy Twierdzy. Dodaje 50% do zasięgu oraz wypuszcza 2 razy więcej strzał podczas najazdów",
+                            "Wynguard Palace - budynek militarny, produkujący armię składającą się z piechoty, ulepszonych łuczników, rycerzy i trebuszy."
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Unikalne technologie",
+                "content": [
+                    {
+                        "subTitle": "II era",
+                        "content": [
+                            "Shipwrights (Dock) - zmniejsza koszt produkcji statków o 10%",
+                            "Setup Camp (Archery Range) - odblokowuje zdolność jednostek Longbowman do ustawiania namiotów, dzięki którym co sekundę odzyskują 1 punkt zdrowia."
+                        ]
+                    },
+                    {
+                        "subTitle": "III era",
+                        "content": [
+                            "Armor Clad (Barracks) - zwiększa moc pancerza o 2 punkty dla jednostek Man-at-Arms",
+                            "Network of Citadels (Keep) - zwiększa premię do prędkości ataku do 50%."
+                        ]
+                    },
+                    {
+                        "subTitle": "IV era",
+                        "content": [
+                            "Enclosure (Siege Workshop) - każda farma, na której pracuje Mieszkaniec (Villager), generuje 1 sztukę złota co 3,5 sekundy",
+                            "Arrow Volley (Archery Range) - unikalna zdolność jednostki Longbowman, która po aktywowaniu zwiększa ich szybkość ataku o 70%",
+                            "Shattering Projectiles (Siege Workshop) - ulepszenie pocisków trebuszy, które rozbijają się przy trafieniu w cel, niszcząc przy tym większy obszar."
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Podsumowanie",
+                "content": [
+                    "Anglicy nie są agresywną cywilizacją. Grając Anglikami powinniście starać się przejmować jak największy teren, stworzyć Sieć Zamków i Wież, dzięki której Wasze jednostki zyskają premię do szybkości ataku oraz zasięgu strzał. Biorąc pod uwagę korzyści płynące z walki w pobliżu tych placówek, powinniście zawsze skupiać się na obronie. Nawet zwykli Mieszkańcy (Villagers), wyposażeni w krótkie łuki, otrzymują premie od pobliskich budynków, co czyni ich przydatnymi w obronie np. Centrum Miasta.Obrona takich obiektów jak Święte Miejsca (Sacred Sites) może wymagać ustawienia nowego Centrum Miasta, obmurowania oraz wież, aby wykorzystać możliwości unikatowej jednostki Anglików, jaką jest Longbowman - Age of Empires 4: Anglicy - cywilizacja - Age of Empires 4 - poradnik do gry. Obrona takich obiektów jak Święte Miejsca (Sacred Sites) może wymagać ustawienia nowego Centrum Miasta, obmurowania oraz wież, aby wykorzystać możliwości unikatowej jednostki Anglików, jaką jest Longbowman. Ci wyborowi łucznicy, oprócz zwiększonego zasięgu, po wykupieniu odpowiedniej technologii, zyskają zdolność rozstawiania obozów, regenerujących ich zdrowie. Cywilizacja angielska, pomimo swej podatności na machiny oblężnicze, po umiejętnym zaplanowaniu i rozłożeniu odpowiednich budynków pozwoli Wam powoli lecz skutecznie zdominować całą mapę."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Francja",
+        "subTitle": "opis cywilizacji",
+        "date": "02.06.2024",
+        "content": [
+            {
+                "title": "Bonusy",
+                "content": [
+                    "Przyspieszona produkcja Mieszkańców (Villagers) i Zwiadowców (Scouts) co nową erę (10%, 15%, 20%, 25%)",
+                    "Technologia ekonomiczna tańsza o 30%",
+                    "Budynki magazynujące surowce są tańsze o 25 sztuk drewna",
+                    "Placówki Handlowe zostają zaznaczone na minimapie po rozpoczęciu rozgrywki",
+                    "Kupcy (Traders) mogą zwrócić do Marketu dowolne surowce",
+                    "Technologie walki w zwarciu są badane za darmo",
+                    "Statki handlowe zwracają o 20% więcej złota",
+                    "Jednostki produkowane w budynku łuczników (Archery Range) oraz Stajni (Stable), będących pod wpływem Twierdzy (Keep) są tańsze o 20%"
+                ]
+            },
+            {
+                "title": "Unikalne jednostki",
+                "content": [
+                    "Royal Knight - ciężkozbrojny Jeździec, dostępny od II ery. Posiada premię do ataku przez 3 sekundy po wykonaniu szarży. Ulepszenie tej jednostki, odblokowane w III erze, kosztuje mniej niż u innych cywilizacji",
+                    "Arbalétrier - jednostka lekkiej piechoty dystansowej, zastępująca Kuszników",
+                    "Cannon - machina oblężnicza o potężnym zasięgu i sile rażenia",
+                    "Galleass - specjalna galera wojenna o dalekim zasięgu."
+                ]
+            },
+            {
+                "title": "Zabytki (Landmarks)",
+                "content": [
+                    {
+                        "subTitle": "II era",
+                        "content": [
+                            "Chamber of Commerce- budynek ekonomiczny, posiadający cechy Marketu, który powoduje że wszyscy Kupcy (Traders) i Statki Handlowe (Trade Ships) zwracają o 30% więcej zasobów",
+                            "School of Cavalry - budynek militarny, posiadający cechy Stajni (Stable), w którym jednostki są produkowane o 25% szybciej"
+                        ]
+                    },
+                    {
+                        "subTitle": "III era",
+                        "content": [
+                            "Guild Hall - budynek ekonomiczny, służący do magazynowania i generowania wybranego surowca. Im większa ilość przechowywanego surowca, tym szybciej będzie on generowany",
+                            "Royal Institute - budynek militarny, który posiada wszystkie unikalne technologie dostępne dla cywilizacji francuskiej. Technologie są o 25% tańsze oraz można je wykupić niezależnie od wymaganej ery."
+                        ]
+                    },
+                    {
+                        "subTitle": "IV era",
+                        "content": [
+                            "College of Artillery - budynek military, udostępniający lepsze warianty machin artyleryjskich, które zadają 20% więcej obrażeń",
+                            "Red Palace - budynek obronny, mający cechy Twierdzy (Keep). Obiekt wyposażony jest w stanowiska kuszników strzelających z arbalestów, zadających bardzo duże obrażenia. Każda jednostka w garnizonie otrzymuje dodatkowe stanowisko strzelnicze."
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Unikalne technologie",
+                "content": [
+                    {
+                        "subTitle": "II era",
+                        "content": [
+                            "Long Guns (Dock) - zwiększa obrażenia zadawane przez armaty morskie o 10%",
+                            "Chivalry (Stable) - jednostki Royal Knights co każdą sekundę regenerują 1 punkt wytrzymałości podczas walki"
+                        ]
+                    },
+                    {
+                        "subTitle": "III era",
+                        "content": [
+                            "Gambesons (Archery Range lub Royal Institute) - jednostki Arbalétriers otrzymują premię do pancerza do walki wręcz",
+                            "Canted Saddles (Stable) - zwiększa bonus do ataku otrzymywany po wykonanej szarży o 10 jednostkom Royal Knights"
+                        ]
+                    },
+                    {
+                        "subTitle": "IV era",
+                        "content": [
+                            "Crossbow Stirrups (Archery Range) - zmniejsza czas przeładowania o 25% jednostkom Arbalétriers",
+                            "Royal Bloodlines (University) - zastępuje Biologię. Zwiększa maksymalną liczbę punktów wytrzymałości całej kawalerii o 35%",
+                            "Enlistment Incentives (Archery Range) - koszt jednostki w Twierdzach (Keeps) zostaje zmniejszony o kolejne 10%"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Podsumowanie",
+                "content": [
+                    "Pomimo dostępu do silnej kawalerii, cywilizacja francuska nie ma wielu umiejętności defensywnych. Powinniście skupić się na jak najszybszym rozwijaniu swojej osady i zbudowaniu Twierdzy, która zmniejszy koszt produkcji nowych jednostek, w budynkach będących pod jej wpływem. Przy przechodzeniu do nowej ery, Francuzi zdobywają coraz potężniejsze umiejętności, w tym jednostkę kawalerii Royal Knight oraz zyskują znaczną redukcję kosztów produkowania armii - Age of Empires 4: Francuzi - cywilizacja - Age of Empires 4 - poradnik do gry. Przy przechodzeniu do nowej ery, Francuzi zdobywają coraz potężniejsze umiejętności, w tym jednostkę kawalerii Royal Knight oraz zyskują znaczną redukcję kosztów produkowania armii. Ponadto posiadają silną broń oblężniczą, a ich technologie zadawania obrażeń w zwarciu są całkowicie darmowe, co pozwoli na szybkie odblokowanie ulepszeń. Francuska kawaleria jest niebywale silna, łatwo zbudować spory oddział już na początku gry. Jednostki Royal Knights potrafią wykonać szarzę, która może przełamać linie obronne przeciwników. Ataki te powinny być wspomagane unikalnymi dla cywilizacji francuskiej jednostkami dystansowymi, wyposażonymi w tarcze obronne. Grając francuzami możecie przyjąć wiele skutecznych taktyk. Są świetni w ciągłym nękaniu wroga oraz całkiem skuteczni przy oblężeniach."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Chiny",
+        "subTitle": "opis cywilizacji",
+        "date": "02.06.2024",
+        "content": [
+            {
+                "title": "Bonusy",
+                "content": [
+                    "Centrum Miasta (Town Center) wystrzeliwuje pociski z armaty ręcznej",
+                    "Mieszkańcy (Villagers) wznoszą o 50% szybciej budynki obronne, wszystkie inne budynki o 100% szybciej",
+                    "Budynki ekonomiczne generują podatki, za każdy dostarczony zasób (bez względu na ilość zrzucanego surowca)",
+                    "Budynki militarne generują podatki przy produkcji każdej jednostki i badanej technologii",
+                    "Jednostka Imperial Official może zebrać maksymalnie 20 podatków od budynku (liczba ta zwiększa się do 40 po odpowiednim ulepszeniu). Ponowne zbieranie podatków może nastąpić po upływie 30 sekund",
+                    "Dynastie, unikalna cecha cywilizacji chińskiej, pozwala na zbudowanie obydwu Zabytków (Landmarks) z danej epoki, zapewniając dostęp do specjalnych bonusów",
+                    "Technologie chemii zostają przyznane za darmo po przejściu do IV ery",
+                    "Doki pracują o 20% szybciej."
+                ]
+            },
+            {
+                "title": "Dynastie",
+                "content": [
+                    "Dynastie są unikalną cechą cywilizacji chińskiej. Mieszkańcy (Villagers) mogą budować oba Zabytki z tej samej epoki. W ten sposób Chińczycy przechodzą do nowej dynastii z wyjątkowymi bonusami, budynkami i jednostkami.",
+                    "Dynastia Tang - przyznaje premie do wielkości odkrywanych terenów przez Zwiadowców (Scouts)",
+                    "Dynastia Song - odblokowuje budynek Wioski (Village) i jednostkę Zhuge Nu. Zmniejsza również czas produkcji Mieszkańców",
+                    "Dynastia Yuan - odblokowuje budynek Granary i jednostkę Fire Lancer. Zwiększa prędkość poruszania się wszystkich jednostek",
+                    "Dynastia Ming - odblokowuje budynek Pagoda i jednostkę Grenadier. Wszystkie jednostki militarne dostają premię do zdrowia."
+                ]
+            },
+            {
+                "title": "Unikalne jednostki",
+                "content": [
+                    "Imperial Official - pobiera podatki z budynków oraz poprawia ich efektywność. Zasoby dostarczane do budynku nadzorowanego przez urzędnika są zwiększone o 20%. Nadzorowane budynki produkcyjne stają się o 200% szybsze. Centrum Miasta (Town Center), Doki, Markety oraz budynki technologiczne nie mogą być nadzorowane",
+                    "Zhuge Nu - jednostka militarna wyposażona w kuszę, doskonała do walki z lekkozbrojnymi grupami wrogów",
+                    "Palace Guard - jednostka piechoty z lekkim pancerzem, podobna do Man-at-Arms",
+                    "Nest of Bees - jednostka oblężnicza, wykorzystywana do walki z grupami wrogów",
+                    "Fire Lancer - jednostka produkowana w Stajni (Stable). Potrafi wykonywać szarżę, która zadaje obrażenia obszarowe (nie dotyczy to jednostek dystansowych) i zwiększa obrażenia od pochodni",
+                    "Grenadier - jednostka dystansowa wyposażona w granaty, zadające obrażenia obszarowe"
+                ]
+            },
+            {
+                "title": "Zabytki (Landmarks)",
+                "content": [
+                    {
+                        "subTitle": "II era",
+                        "content": [
+                            "Imperial Academy - budynek ekonomiczny. Budynki w zasięgu generują o 100% więcej podatków",
+                            "Barbican of the Sun - budynek obronny, wyposażony w armatę ręczną dalekiego zasięgu. Każda jednostka w garnizonie otrzymuje stanowisko strzelnicze. Oferuje zwiększoną wizję podczas ukrywania się w lesie"
+                        ]
+                    },
+                    {
+                        "subTitle": "III era",
+                        "content": [
+                            "Astronomical Cloctower - budynek militarny, szkolone w nim ulepszone jednostki oblężnicze posiadają 50% więcej punktów wytrzymałości",
+                            "Imperial Palace - budynek ekonomiczny, posiadający bardzo duży promień widoku oraz zdolność, która ujawnia lokalizacje wszystkich wrogich Mieszkańców (Vilalgers) przez 10 sekund"
+                        ]
+                    },
+                    {
+                        "subTitle": "IV era",
+                        "content": [
+                            "Great Wall Gatehouse - budynek obronny, który musi przylegać do kamiennego muru. Zwiększa wytrzymałość pobliskich murów i bram o 100%. Jednostki znajdujące się na murze, będące pod wpływem tego budynku zadają o 50% więcej obrażeń",
+                            "Spirit Way - budynek militarny, który umożliwia wszystkim budynkom produkcję jednostek dynastii. Budynki znajdujące się pod wpływem tego Zabytku produkują jednostki dynastyczne o 30% taniej"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Unikalne technologie",
+                "content": [
+                    {
+                        "subTitle": "II era",
+                        "content": [
+                            "Imperial Examination (Imperial Academy) - zwiększa maksymalną ilość złota jaką mogą nieść jednostki Imperial Officials."
+                        ]
+                    },
+                    {
+                        "subTitle": "III era",
+                        "content": [
+                            "Extra Materials (Keep) - kamienne wieże i posterunki naprawiają pobliskie uszkodzone mury (20 punktów zdrowia co sekundę)",
+                            "Extra Hammocks (Dock) - statki strzelnicze typu Junks otrzymują dodatkową załogę, dzięki czemu mogą wystrzelić dwie dodatkowe strzały przy każdej salwie."
+                        ]
+                    },
+                    {
+                        "subTitle": "IV era",
+                        "content": [
+                            "Battle Hardened (Barracks) - dodaje 30 punktów życia jednostkom Palace Guards",
+                            "Reusable Barrels (Siege Workshop) - zmniejsza koszt jednostki Nest of Bees o 25%",
+                            "Pyrotechnics (Siege Workshop) - zwiększa zasięg jednostek z prochem strzelniczym o 20%",
+                            "Ancient Techniques (University) - zwiększa ilość zbieranych surowców o 5% przy każdym awansie dynastycznym",
+                            "Reload Drills (Siege Workshop) - zmniejsza czas przeładowania maszynom Bombards o 33%"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Podsumowanie",
+                "content": [
+                    "Chińczycy funkcjonują inaczej niż inne cywilizacje, ponieważ przechodzą przez epoki oraz dynastie. Cywilizacja chińska nie jest ograniczona pod względem tego jaki Zabytek (Landmark) wybierzecie, podczas przechodzenia do następnej ery. Wybudowanie obu Zabytków przeniesie ich do następnej dynastii, co zapewni im dodatkowe bonusy oraz odblokuje nową jednostkę i budynek. Przy przechodzeniu z jednej dynastii do następnej, Chińczycy niestety tracą premię przyznaną z poprzedniej. Możliwość postawienia wszystkich Zabytków oraz przyspieszony czas budowania dają Chińczykom niezwykłą przewagę nad wrogiem - Age of Empires 4: Chińczycy - cywilizacja - Age of Empires 4 - poradnik do gry. Możliwość postawienia wszystkich Zabytków oraz przyspieszony czas budowania dają Chińczykom niezwykłą przewagę nad wrogiem. Ta ogromna liczba obiektów, odbije się jednak na Waszych zasobach. Efektywne budowanie jest kluczem do sukcesu cywilizacji chińskiej. Po osiągnięciu dynastii Ming odblokowany zostanie budynek Pagody. Umieszczenie relikwii w tym budynku sprawi, że co 30 sekund otrzymacie po 50 sztuk każdego surowca, odblokujecie Grenadierów oraz zyskacie premię do zdrowia dla wszystkich Waszych jednostek. Chińczycy dysponują potężnymi wojownikami, którzy doskonale sprawdzają się w walce. Ich unikalne jednostki posiadają proch strzelniczy, co czyni ich niezwykle silnymi podczas oblężenia. Sposób odblokowania potencjału chińczyków, sprawia że cywilizacja ta jest bardzo trudna do pełnego wykorzystania oraz wymaga ona starannego wyczucia czasu."
+                ]
+            }
+        ]
+    },
+    {
+        "title": "test",
+        "subTitle": "hejhej",
+        "content": "[{'title': 'Bonusy', 'content': ['Centrum Miasta (Town Center) wystrzeliwuje pociski z armaty ręcznej', 'Mieszkańcy (Villagers) wznoszą o 50% szybciej budynki obronne, wszystkie inne budynki o 100% szybciej']}, {'title': 'Podsumowanie', 'content': ['Chińczycy funkcjonują inaczej niż inne cywilizacje, ponieważ przechodzą przez epoki oraz dynastie. Cywilizacja chińska nie jest ograniczona pod względem tego jaki Zabytek (Landmark) wybierzecie, podczas przechodzenia do następnej ery. Wybudowanie obu Zabytków przeniesie ich do następnej dynastii, co zapewni im dodatkowe bonusy oraz odblokuje nową jednostkę i budynek. Przy przechodzeniu z jednej dynastii do następnej, Chińczycy niestety tracą premię przyznaną z poprzedniej. Możliwość postawienia wszystkich Zabytków oraz przyspieszony czas budowania dają Chińczykom niezwykłą przewagę nad wrogiem - Age of Empires 4: Chińczycy - cywilizacja - Age of Empires 4 - poradnik do gry. Możliwość postawienia wszystkich Zabytków oraz przyspieszony czas budowania dają Chińczykom niezwykłą przewagę nad wrogiem. Ta ogromna liczba obiektów, odbije się jednak na Waszych zasobach. Efektywne budowanie jest kluczem do sukcesu cywilizacji chińskiej. Po osiągnięciu dynastii Ming odblokowany zostanie budynek Pagody. Umieszczenie relikwii w tym budynku sprawi, że co 30 sekund otrzymacie po 50 sztuk każdego surowca, odblokujecie Grenadierów oraz zyskacie premię do zdrowia dla wszystkich Waszych jednostek. Chińczycy dysponują potężnymi wojownikami, którzy doskonale sprawdzają się w walce. Ich unikalne jednostki posiadają proch strzelniczy, co czyni ich niezwykle silnymi podczas oblężenia. Sposób odblokowania potencjału chińczyków, sprawia że cywilizacja ta jest bardzo trudna do pełnego wykorzystania oraz wymaga ona starannego wyczucia czasu.']}]",
+        "like": "0",
+        "unlike": "0",
+        "likeUsers": "[]",
+        "unlikeUsers": "[]",
+        "date": "08.07.2024 21:50:47",
+        "comment": "[]",
+        "id": 2
+    },
+    {
+        "title": "test",
+        "subTitle": "test",
+        "content": "asdsafasdfasfewfqwa",
+        "like": "0",
+        "unlike": "0",
+        "likeUsers": "[]",
+        "unlikeUsers": "[]",
+        "date": "09.07.2024 19:06:45",
+        "comment": "[]",
+        "id": 3
+    },
+    {
+        "title": "test",
+        "subTitle": "",
+        "content": "gfswdgsadfgfdgdfgshfdsfgh",
+        "like": "0",
+        "unlike": "0",
+        "likeUsers": "[]",
+        "unlikeUsers": "[]",
+        "date": "09.07.2024 19:07:57",
+        "comment": "[]",
+        "id": 4
+    },
+    {
+        "title": "test",
+        "subTitle": "",
+        "content": "testsadasdasd",
+        "like": "0",
+        "unlike": "0",
+        "likeUsers": "[]",
+        "unlikeUsers": "[]",
+        "date": "10.07.2024 21:13:54",
+        "comment": "[]",
+        "id": 5
+    },
+    {
+        "title": "mamamam",
+        "subTitle": "2 tekst",
+        "content": "adsdasfsdfsd",
+        "like": 0,
+        "unlike": 0,
+        "likeUsers": [],
+        "unlikeUsers": [],
+        "date": "28.09.2024 00:04:41",
+        "comment": [],
+        "id": 6
+    },
+    {
+        "title": "asfdfsd",
+        "subTitle": "asdfsdaf",
+        "content": "fewrer",
+        "like": 0,
+        "unlike": 0,
+        "likeUsers": [],
+        "unlikeUsers": [],
+        "date": "28.09.2024 00:04:54",
+        "comment": [],
+        "id": 7
+    }
+]

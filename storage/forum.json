@@ -1,0 +1,73 @@
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "Anglicy sa zbyt OP",
+        "content": "Ostatnio ciupalem za duzco anglikami i powiem zce sa mega mocni, szczegulnie early game lucznicy kosza",
+        "like": 2,
+        "unlike": 2,
+        "likeUsers": [
+            2,
+            1
+        ],
+        "unlikeUsers": [
+            3,
+            2
+        ],
+        "date": "30.05.2024",
+        "comment": [
+            {
+                "userId": 2,
+                "id": 1,
+                "content": "zgadzan sie bratku w 100%",
+                "date": "30.05.2024",
+                "like": 0,
+                "unlike": 0,
+                "likeUsers": [],
+                "unlikeUsers": []
+            }
+        ]
+    },
+    {
+        "userId": 2,
+        "title": "asdas",
+        "content": "asdasda",
+        "like": 1,
+        "unlike": 0,
+        "likeUsers": [
+            1
+        ],
+        "unlikeUsers": [],
+        "date": "27.09.2024 23:54:14",
+        "comment": [],
+        "id": 5
+    },
+    {
+        "userId": 1,
+        "title": "ale kox",
+        "content": "siema",
+        "like": 1,
+        "unlike": 0,
+        "likeUsers": [
+            1
+        ],
+        "unlikeUsers": [],
+        "date": "03.11.2024 12:00:55",
+        "comment": [],
+        "id": 6
+    },
+    {
+        "userId": 1,
+        "title": "test",
+        "content": "testetsettes",
+        "like": 0,
+        "unlike": 1,
+        "likeUsers": [],
+        "unlikeUsers": [
+            1
+        ],
+        "date": "05.11.2024 22:28:17",
+        "comment": [],
+        "id": 7
+    }
+]

@@ -1,0 +1,50 @@
+pr: { branches: { include: ['master', 'release/*', 'develop'] } }
+trigger: { branches: { include: ['master', 'release/*', 'develop'] } }
+pool: { name: Default }
+
+resources: 
+ repositories:
+  - { repository: pipelines, name: Forum/pipelines, type: git, ref: refs/heads/master }
+
+stages:
+- stage: Build
+  jobs:
+  - template: testFlask.yaml
+  - template: generateVersion.yaml@pipelines
+
+- stage: Publish
+  dependsOn: Build
+  condition: and(succeeded(), or(eq(variables['Build.SourceBranch'], 'refs/heads/develop'), startsWith(variables['Build.SourceBranch'], 'refs/heads/release/')))
+  jobs:
+  - template: publishDocker.yaml@pipelines
+    parameters:
+      image: 'backend'
+      version: '$(version)'
+
+# - stage: Merge
+#   dependsOn: Publish
+#   condition: and(succeeded(), or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), startsWith(variables['Build.SourceBranch'], 'refs/heads/release/')))
+#   jobs:
+#   - template: merge-back.yaml@pipelines
+
+- stage: Deploy_dev
+  dependsOn: Publish
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/develop'))
+  jobs:
+  - template: deploy-ci.yaml@pipelines
+    parameters:
+      ENVIRONMENT: dev
+      APPLICATION: 
+        - name: backend
+          version: '$(version)'
+
+# - stage: Deploy_uat
+#   dependsOn: Merge
+#   condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'))
+#   jobs:
+#   - template: deploy-ci.yaml@pipelines
+#     parameters:
+#       ENVIRONMENT: uat
+#       APPLICATION: 
+#         - name: backend
+#           version: '$(version)'

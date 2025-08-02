@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  python-api:
+    image: docker.io/adomg/ado-python-build:test  # Obraz Docker, który już masz
+    ports:
+      - "5000:5000"  # Mapowanie portów: lokalny port 5000 na port 5000 kontenera
+    environment:
+      - FLASK_APP=api.py  # Ustawienie zmiennej FLASK_APP
+      - FLASK_ENV=production  # Ustawienie środowiska na produkcyjne
+    command: ["gunicorn", "-b", "0.0.0.0:5000", "api:app"]  # Uruchomienie aplikacji za pomocą Gunicorna
+    networks:
+      - app-network  # Opcjonalnie: dołączanie do sieci Docker (jeśli planujesz więcej usług)
+
+networks:
+  app-network:
+    driver: bridge  # Sieć mostkowa dla kontenerów

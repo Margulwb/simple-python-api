@@ -1,0 +1,16 @@
+jobs:
+- job: Build
+  container:
+    image: docker.io/adomg/ado-python-build:1.1
+    endpoint: 'DockerHub'
+  displayName: 'Testing Python API'
+  steps:
+    - checkout: self
+    - script: |
+        set -x
+        # pytest test_api.py --junitxml=test-results.xml
+        echo 'No tests to run'
+      displayName: 'Run Flask tests'
+    - task: PublishTestResults@2
+      inputs:
+        testResultsFiles: '**/test-results.xml'
