@@ -1,0 +1,20 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+      
+  build-push-backend:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Login to Docker Registry
+      run: docker login --username Margulwb --password ${{ secrets.TOKEN }} ghcr.io 
+    - name: Build the Docker image
+      run: docker build ./backend -t ghcr.io/margulwb/p1backend:1.0
+    - name: Push the Docker image
+      run: docker push ghcr.io/margulwb/p1backend:1.0
