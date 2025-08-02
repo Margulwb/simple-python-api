@@ -15,6 +15,6 @@ jobs:
     - name: Login to Docker Registry
       run: docker login --username Margulwb --password ${{ secrets.TOKEN }} ghcr.io 
     - name: Build the Docker image
-      run: docker build ./backend -t ghcr.io/margulwb/p1backend:1.0
+      run: docker build ./src -t ghcr.io/margulwb/p1backend:1.0
     - name: Push the Docker image
       run: docker push ghcr.io/margulwb/p1backend:1.0
